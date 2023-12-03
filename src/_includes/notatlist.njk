@@ -1,0 +1,3 @@
+{% for notat in collections.notater %}
+<a href="{{ notat.url }}">{{ notat.data.title }}<br>{{notat.data.date}}</a>
+{% endfor %}
